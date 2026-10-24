@@ -20,7 +20,7 @@ spec:
         - name: dockerhub-cred
       containers:
         - name: web
-          image: chayarat/sample_multi_app
+          image: chayarat/sample_multi_app:v1.0
 
           ports:
             - containerPort: 8080
