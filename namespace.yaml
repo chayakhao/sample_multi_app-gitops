@@ -1,0 +1,4 @@
+apiVersion: v1      # ใช้ Kubernetes core API
+kind: Namespace.    # สร้าง resource ประเภท Namespace
+metadata:
+  name: dev.

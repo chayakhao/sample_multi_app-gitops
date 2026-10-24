@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap         # สร้าง resource ประเภท ConfigMap เก็บ configuration แบบ key-value
+metadata:
+  name: gitops-demo
+  namespace: dev
+data:
+  environment: dev      # configuration ใช้ที่ environment dev
+  managed-by: argocd
