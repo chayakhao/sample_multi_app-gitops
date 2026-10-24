@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: chayarat/sample_multi_app:v1.0
+          image: 67070031/sample_multi_app:v1.0
 
           ports:
             - containerPort: 8080
