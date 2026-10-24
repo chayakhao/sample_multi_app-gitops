@@ -16,6 +16,8 @@ spec:
         app: sample-multi-app
 
     spec:
+      imagePullSecrets:
+        - name: dockerhub-cred
       containers:
         - name: web
           image: chayarat/sample_multi_app
