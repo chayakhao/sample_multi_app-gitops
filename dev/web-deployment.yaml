@@ -19,9 +19,8 @@ spec:
       imagePullSecrets:
         - name: dockerhub-cred
       containers:
-        - name: web
-          image: chayarat/sample_multi_app:v1.1
-
+          image: chayarat/sample_multi_app:v1.2
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
 
